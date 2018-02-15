@@ -59,3 +59,31 @@ Snapshots:   0 total
 Time:        1.254s
 Ran all test suites.
 ```
+
+## File structure
+
+.
+├── README.md
+├── package-lock.json
+├── package.json
+├── src
+│   ├── app.js - Where the application is defined
+│   ├── app.test.js - Tests for the application
+│   ├── config.js - Config for the app, fetched from environment
+│   ├── controllers - All controllers
+│   │   ├── index.js
+│   │   ├── tasks.js
+│   │   └── users.js
+│   ├── models - All models
+│   │   ├── init.js
+│   │   ├── schema.sql
+│   │   ├── tasks.js
+│   │   ├── test.js
+│   │   └── users.js
+│   ├── routes - All routes
+│   │   └── routes.js
+│   ├── services - Misc things that don't fit into models
+│   │   └── middleware.js
+│   └── views - All views
+│       └── index.hbs
+└── start.js - Script that starts the app (the server)
