@@ -62,8 +62,9 @@ Ran all test suites.
 
 ## File structure
 
+```
 .
-├── README.md
++-- README.md
 ├── package-lock.json
 ├── package.json
 ├── src
@@ -87,3 +88,4 @@ Ran all test suites.
 │   └── views - All views
 │       └── index.hbs
 └── start.js - Script that starts the app (the server)
+```
